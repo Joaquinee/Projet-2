@@ -73,10 +73,13 @@ header {
 .nav-top ul {
     margin: 0;
 }
-.nav-top li:first-child {
+.nav-top li:hover{
     border-top: 2px solid var(--main-color);
+}
+.nav-top li:hover a{
     color: var(--main-color); 
 }
+
 .main-container li {
     justify-content: space-between;
     background: #ffffff;
