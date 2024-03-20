@@ -91,8 +91,6 @@ header {
 }
 
 /****** Recherche et filtres ***********/
-
-
 .recherche-et-filtres {
     height: 281px;
 }
@@ -208,7 +206,6 @@ header {
 
 
 
-
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -228,6 +225,46 @@ header {
     width: 65%;
 }
 
+.hbg-mrs {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: auto;
+    gap: 21px;
+}
+.hbg-mrs .card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 243px;
+    padding: 0px 0px 15px 0px;
+    border-radius: 20px;
+}
+
+.hbg-mrs img {
+    padding: 5px 5px; 
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+   
+}
+.hbg-mrs .card-title {
+    font-size: 16px;
+}
+.hbg-mrs .card-content {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hbg-mrs .card-rating {
+    padding-top: 5px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -238,6 +275,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .populaires-cards .card {
     display: flex;
@@ -315,5 +353,6 @@ header {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    
+    
 }
