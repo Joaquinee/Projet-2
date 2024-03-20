@@ -18,17 +18,64 @@
     <div class="main-container">
         <header>
            <div class="logo">
-                <img src="./images/logo/Booki.png" alt="logo_booki" height="19px" width="61px">
+                <img class="logoBooki" src="./images/logo/Booki.png" alt="logo_booki">
            </div>
            <nav class="nav-top">
                 <ul>
                     <li class=""><a href="#">Hébergements</a></li>
-                    <li class="button-activiter"><a href="#">Activités</a></li>
+                    <li class=""><a href="#">Activités</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            
+            <section class="recherche-et-filtres">
+                <div class="rch">
+                    <h1 class="rch-title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="rch-subTitle">En plein centre-ville ou en pleine nature</p>
+                    <form class="rch-bar" action="#" method="get">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input  type="text" 
+                                class="rch-text" 
+                                name="rch-lieu" 
+                                id="rch-lieu"
+                                placeholder="Marseille, France">
+                        <button class="rch-btn" type="submit" value="rch">Rechercher</button>
+                    </form>
+                </div>
+                <div class="filtres">
+                    <h2 class="flt-title">Filtres</h2>
+                    <div class="flt-box">
+                        <button class="flt-btn">
+                            <span class="flt-btn-text">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                &nbsp;Economique
+                            </span>
+                        </button>
+                        <button class="flt-btn">
+                            <span class="flt-btn-text">
+                                <i class="fa-solid fa-person"></i>
+                                &nbsp;Familial
+                            </span>
+                        </button>
+                        <button class="flt-btn">
+                            <span class="flt-btn-text">
+                                <i class="fa-solid fa-heart"></i>
+                                &nbsp;Romantique
+                            </span>
+                        </button>
+                        <button class="flt-btn">
+                            <span class="flt-btn-text">
+                                <i class="fa-solid fa-fire"></i>
+                                &nbsp;Nos pépites
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="rch-info">
+                    <i class="fa-solid fa-info"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     aa
