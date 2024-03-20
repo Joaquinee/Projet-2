@@ -58,8 +58,6 @@ a {
     color: var(--main-bg-color)
 }
 
-
-
 /**********   Header    ************/
 header {
     display: flex;
