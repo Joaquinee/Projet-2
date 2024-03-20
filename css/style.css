@@ -92,6 +92,7 @@ header {
 
 /****** Recherche et filtres ***********/
 
+
 .recherche-et-filtres {
     height: 281px;
 }
@@ -102,11 +103,11 @@ header {
     line-height: 25px;
 }
 .rch-subTitle {
+    padding-top: 8px;
     font-size: 16px;
     line-height: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 400;
-    margin-bottom: auto;
 }
 .rch-bar {
     
@@ -149,15 +150,18 @@ header {
 }
 .filtres {
     margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+   
 }
 .flt-title {
+    padding: 5px;
     font-size: 18px;
     line-height: 21px;
 }
 
-.flt-title, .flt-box {
-    display: inline;
-    
+.flt-box {
+    margin-left: 10px;
 }
 .flt-btn {
     
@@ -179,19 +183,28 @@ header {
 .flt-btn:hover {
     background-color: var(--filter-bg-color);
 }
-.rch-info, p {
-    display: inline-block;
+.rch-info {
+    display: flex;
+    align-items: center;
     margin-bottom: auto;
+    padding-top: 37px ;
+    height: 19px;
+}
+.rch-info, p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
 }
 .fa-info {
-    font-size: 10px;
-    padding: 3px 6px 5px 7px;
-    border: var(--main-bg-color) 2px solid;
-    border-radius: 12px;
-    margin: 5px;
+    height: 24px;
+    width: 24px;
+    border: var(--main-bg-color) 1px solid;
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 10px;
 }
-
-
 
 
 
@@ -200,6 +213,7 @@ header {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    padding-top: 37.5px;
 }
 
 .hebergements-and-populaires section {
