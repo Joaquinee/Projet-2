@@ -169,7 +169,6 @@ header {
     flex-direction: row;
     margin-left: 0 !important;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .flt-btn {
     
@@ -375,10 +374,10 @@ header {
 footer {
     padding-top: 35px;
     display: flex;
-    gap: 15%;
     height: auto;
     padding: 30px;
     background-color: var(--main-bg-color);
+    justify-content: space-between;
 }
 
 footer ul {
@@ -410,6 +409,23 @@ footer a{
         margin-top: 30px !important;
     }
 
+
+    .flt-btn  {
+        width: auto;
+    }
+
+    .hbg-mrs {
+        gap: 0px;
+        justify-content: space-between;
+
+    }
+    .hbg-mrs a {
+        width: 31%;
+        margin-top: 12px;
+    }
+    .hbg-mrs .card {
+        width: 100%;
+    }
     .hebergements {
         width: 100%;
     }
@@ -453,6 +469,13 @@ footer a{
     .act-container article{
         display: flex;
         flex-direction: column;
+    }
+
+    .fln-btn {
+        margin: 2px !important
+    }
+    footer { 
+        justify-content: space-between;
     }
 }
 
@@ -624,6 +647,7 @@ footer a{
         
         display: flex;
         flex-direction: column;
+       
         
     }
     footer ul {
@@ -636,6 +660,9 @@ footer a{
     }   
     .view-plus {
         padding: 0;
+    }
+    .flt-box {
+        justify-content: space-between;
     }
 
 }
