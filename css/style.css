@@ -94,9 +94,7 @@ header {
 }
 
 /****** Recherche et filtres ***********/
-.mobile-rch {
-    display: none;
-}
+
 .recherche-et-filtres {
     height: auto;
 }
@@ -151,6 +149,12 @@ header {
     width: 132px;
     font-size: 18px;
     cursor: pointer;
+}
+
+.rch-btn i {
+    display: none;
+ 
+
 }
 .filtres {
     margin-bottom: auto;
@@ -477,6 +481,8 @@ footer a{
     footer { 
         justify-content: space-between;
     }
+    
+    
 }
 
 /* Small devices (phones, less than 768px) */
@@ -526,9 +532,7 @@ footer a{
         width: auto;
         height: 49px;
     }
-    .rch-btn {
-        display: none;
-    }
+
     .mobile-rch{
         display: block;
         background-color: var(--main-color);
@@ -664,6 +668,21 @@ footer a{
     .flt-box {
         justify-content: space-between;
     }
+    .rch-btn {
+        height: 49px;
+        width: 49px;
+        border-radius: 15px;
+    }
+    .rch-btn span {
+        display: none;
+    }
+    .rch-btn i {
+        display: block;
+    }
+    .rch-btn .fa-solid  {
+        color: #ffffff;
+    }
+
 
 }
 
