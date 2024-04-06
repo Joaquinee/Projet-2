@@ -41,6 +41,8 @@ input:focus {
     font-size: 22px;
 }
 
+
+/* CARD Style*/
 .card {
     background-color: white;
     border-radius: 20px;
@@ -376,12 +378,14 @@ header {
 /****** Footer ***********/
 
 footer {
-    padding-top: 35px;
+    margin-top: 65px;
     display: flex;
-    height: auto;
-    padding: 30px;
     background-color: var(--main-bg-color);
-    justify-content: space-between;
+
+
+
+    justify-content: flex-start;
+    gap: 17%;
 }
 
 footer ul {
@@ -479,7 +483,8 @@ footer a{
         margin: 2px !important
     }
     footer { 
-        justify-content: space-between;
+        gap: 8%;
+    
     }
     
     
@@ -581,6 +586,9 @@ footer a{
         font-size: 16px;
         line-height: 16px;
     }
+    .flt-btn-text span {
+        display: none;
+    }
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
@@ -652,7 +660,7 @@ footer a{
         display: flex;
         flex-direction: column;
        
-        
+        padding: 30px;
     }
     footer ul {
         display: flex;

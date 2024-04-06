@@ -1,0 +1,3 @@
+
+https://developer.mozilla.org/fr/docs/Web/CSS/Specificity
+https://developer.mozilla.org/fr/docs/Web/CSS/Cascade
