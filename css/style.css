@@ -11,6 +11,28 @@
 
 }
 
+/* Styles de la scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Largeur de la scrollbar */
+    background-color: var(--main-bg-color); /* Couleur de fond */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color); /* Couleur de la poignée */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #003EAA; /* Couleur de la poignée au survol */
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--filter-bg-color); /* Couleur de la piste */
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #B4D8FF; /* Couleur de la piste au survol */
+}
+
 .fa-solid {
     color: var(--main-color);
 }
